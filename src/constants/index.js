@@ -1,22 +1,4 @@
-import {
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+import { web, carrent, jobit, tripguide } from "../assets";
 
 export const navLinks = [
   {
@@ -40,148 +22,49 @@ const services = [
   },
 ];
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    // icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    // icon: tesla,
+    title: "Frontend Software Engineer",
+    company_name: "FightPandemics",
+    // icon: fightpandemics,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "July 2020 - Feb 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Skillfully engineered the frontend for private messaging and notification functionalities, ensuring seamless communication and timely alerts for users within the platform.",
+      "Tackled complex UX challenges, implementing innovative solutions to improve user experience and drive product success.",
+      "Conducted user research to gather feedback and insights, informing design decisions and enhancing application usability.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    // icon: shopify,
+    title: "Senior Technical Support Engineer",
+    company_name: "Kustomer(acquired by Meta)",
+    // icon: kustomer,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "November 2019 - June 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed an efficient Dashboard using React Hooks, leveraging Kustomer's API to streamline processes and save the Technical Support Team 30 minutes per task, enhancing productivity. ",
+      "Actively mentored new hires, providing guidance and insights on platform usage and API documentation, facilitating a smooth onboarding process and accelerating their acclimation to the company's technology stack.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    // icon: meta,
+    title: "Frontend Software Engineer",
+    company_name: "commercetools",
+    // icon: commercetools,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with cross-functional teams to develop and maintain web applications using TypeScript, and React, and Recharts",
+      "Designed and implemented intuitive user interface templates, enabling streamlined creation and management of discounts within the application.",
+      "Developed a versatile export feature, allowing customers to conveniently generate PDF and CSV/TSV files of their dashboard data for further analysis.",
+      "Refined unit tests and end-to-end tests using React Testing Library and Cypress, ensuring the highest quality of code.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Placeholder",
+    description: "",
     tags: [
       {
         name: "react",
@@ -200,9 +83,8 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Placeholder",
+    description: "",
     tags: [
       {
         name: "react",
@@ -221,9 +103,8 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Placeholder",
+    description: "",
     tags: [
       {
         name: "nextjs",
@@ -243,4 +124,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, experiences, testimonials, projects };
