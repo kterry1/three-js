@@ -51,7 +51,7 @@ const experiences = [
     company_name: "commercetools",
     // icon: commercetools,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2021 - Present",
     points: [
       "Collaborated with cross-functional teams to develop and maintain web applications using TypeScript, and React, and Recharts",
       "Designed and implemented intuitive user interface templates, enabling streamlined creation and management of discounts within the application.",
@@ -124,4 +124,4 @@ const projects = [
   },
 ];
 
-export { services, experiences, testimonials, projects };
+export { services, experiences, projects };
