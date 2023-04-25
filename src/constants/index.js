@@ -1,4 +1,4 @@
-import { web, carrent, jobit, tripguide } from "../assets";
+import { web, carrent, mobile, jobit, tripguide } from "../assets";
 
 export const navLinks = [
   {
@@ -25,20 +25,21 @@ const services = [
 const experiences = [
   {
     title: "Frontend Software Engineer",
-    company_name: "FightPandemics",
-    // icon: fightpandemics,
+    company_name: "commercetools",
+    icon: mobile,
     iconBg: "#E6DEDD",
-    date: "July 2020 - Feb 2020",
+    date: "June 2021 - Present",
     points: [
-      "Skillfully engineered the frontend for private messaging and notification functionalities, ensuring seamless communication and timely alerts for users within the platform.",
-      "Tackled complex UX challenges, implementing innovative solutions to improve user experience and drive product success.",
-      "Conducted user research to gather feedback and insights, informing design decisions and enhancing application usability.",
+      "Collaborated with cross-functional teams to develop and maintain web applications using TypeScript, and React, and Recharts",
+      "Designed and implemented intuitive user interface templates, enabling streamlined creation and management of discounts within the application.",
+      "Developed a versatile export feature, allowing customers to conveniently generate PDF and CSV/TSV files of their dashboard data for further analysis.",
+      "Refined unit tests and end-to-end tests using React Testing Library and Cypress, ensuring the highest quality of code.",
     ],
   },
   {
     title: "Senior Technical Support Engineer",
     company_name: "Kustomer(acquired by Meta)",
-    // icon: kustomer,
+    icon: mobile,
     iconBg: "#383E56",
     date: "November 2019 - June 2021",
     points: [
@@ -48,15 +49,14 @@ const experiences = [
   },
   {
     title: "Frontend Software Engineer",
-    company_name: "commercetools",
-    // icon: commercetools,
+    company_name: "FightPandemics",
+    icon: mobile,
     iconBg: "#E6DEDD",
-    date: "June 2021 - Present",
+    date: "July 2020 - Feb 2020",
     points: [
-      "Collaborated with cross-functional teams to develop and maintain web applications using TypeScript, and React, and Recharts",
-      "Designed and implemented intuitive user interface templates, enabling streamlined creation and management of discounts within the application.",
-      "Developed a versatile export feature, allowing customers to conveniently generate PDF and CSV/TSV files of their dashboard data for further analysis.",
-      "Refined unit tests and end-to-end tests using React Testing Library and Cypress, ensuring the highest quality of code.",
+      "Skillfully engineered the frontend for private messaging and notification functionalities, ensuring seamless communication and timely alerts for users within the platform.",
+      "Tackled complex UX challenges, implementing innovative solutions to improve user experience and drive product success.",
+      "Conducted user research to gather feedback and insights, informing design decisions and enhancing application usability.",
     ],
   },
 ];

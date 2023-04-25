@@ -18,11 +18,12 @@ const ExperienceCard = ({ experience }) => {
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
+          {/* TODO add company icons in constants folder */}
+          {/* <img
+            // src={experience.icon}
+            // alt={experience.company_name}
             className="w-[60%] h-[60%] object-contain"
-          />
+          /> */}
         </div>
       }
     >
@@ -52,7 +53,7 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <SectionWrapper>
-      <motion.div variants={textVariant()} id="experience">
+      <motion.div variants={textVariant()} id="work">
         <p className={styles.sectionSubText}>What I have done so far</p>
         <h2 className={styles.sectionHeadText}>Experience.</h2>
       </motion.div>
